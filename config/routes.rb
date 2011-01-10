@@ -1,4 +1,6 @@
 Finman::Application.routes.draw do
+  get "statements/import"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
