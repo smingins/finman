@@ -1,0 +1,4 @@
+%h1 Import Statement
+= form_for :statement, :url => statements_path, :html => { :multipart => true } do |f|
+  = f.file_field :file
+  = f.submit 'Upload'
